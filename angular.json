@@ -28,9 +28,9 @@
             "browser": "src/main.ts",
             "polyfills": ["zone.js", "@angular/localize/init"],
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "css",
+            "inlineStyleLanguage": "scss",
             "assets": ["src/assets"],
-            "styles": ["src/styles.css", "@angular/material/prebuilt-themes/azure-blue.css"],
+            "styles": ["src/styles.scss", "@angular/material/prebuilt-themes/azure-blue.css"],
             "scripts": []
           },
           "configurations": {

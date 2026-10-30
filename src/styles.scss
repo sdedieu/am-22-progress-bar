@@ -1,0 +1,23 @@
+@use '@angular/material' as mat;
+
+:root {
+  @include mat.progress-bar-overrides((
+    active-indicator-color: orange,
+    track-height: 50px,
+    active-indicator-height: 50px,
+    track-color: red,
+    track-shape: 24px,
+  ));
+}
+
+body {
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 30px;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
